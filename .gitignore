@@ -1,0 +1,47 @@
+build*/
+*.bin
+__pycache__/
+.venv/
+.vscode/
+.idea/
+.cache/
+
+# Vendored reference repo (gitignored on purpose; not part of this codebase)
+/turboquant
+
+# AI-assisted writeups and drafts (kept off the code repo)
+report.tex
+report_v3_draft.md
+SESSION_HANDOFF.md
+FUTURE_WORK_DESIGN.md
+
+# LaTeX build outputs
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
+
+# Bundled tar artifacts
+*.tar.gz
+
+# Regeneratable plot outputs
+results/plots/
+results/plots_a100/
+results/plots_jetson/
+results/figures_export/
+
+# NCU artifacts (regeneratable from scripts/ncu_capture.sh)
+results/ncu/
+results/ncu_jetson/
+
+# Real-LLM KV capture working dirs
+tq_real_kv/
+tq_real_kv_*/
+
+# Ad-hoc sweeps at the repo root
+/results.csv
+/report

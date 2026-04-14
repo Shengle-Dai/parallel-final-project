@@ -1,0 +1,6 @@
+torch>=2.1
+triton>=2.1
+numpy
+scipy
+# Optional, only needed for python/capture_kv.py (real-LLM KV capture).
+transformers>=4.40
