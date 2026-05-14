@@ -1,4 +1,4 @@
-# turboquant-kv — FP16 baseline + INT8 (non-fused, fused, online-fused)
+# FP16 baseline + INT8 (non-fused, fused, online-fused)
 
 Standalone CUDA microbenchmark for studying GPU-parallel KV-cache compression.
 Four decode paths are implemented:
